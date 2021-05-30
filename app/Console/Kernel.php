@@ -3,6 +3,8 @@
 namespace App\Console;
 
 use App\Console\Commands\Crawler\IFood;
+use App\Console\Commands\Crawler\UpdateIFood;
+use App\Console\Commands\Here\Geocoder;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
@@ -14,7 +16,9 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        IFood::class
+        IFood::class,
+        UpdateIFood::class,
+        Geocoder::class,
     ];
 
     /**

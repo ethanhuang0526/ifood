@@ -113,6 +113,11 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/tinker" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/framework" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/dom-crawler" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/jbroadway/urlify" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/alexpechkarev/geometry-library" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/alexpechkarev/google-maps" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/voku/stop-words" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/thiagoprz/here-geocoder" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
